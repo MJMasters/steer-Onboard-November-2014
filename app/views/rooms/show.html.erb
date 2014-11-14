@@ -1,2 +1,34 @@
-<h1>Rooms#show</h1>
-<p>Find me in app/views/rooms/show.html.erb</p>
+<section class="room">
+	<h2><%= @room.name %></h2>
+
+<div class="address">	
+	<p><%= @room.address %></p>
+</div>
+
+<div class="image">
+
+</div>
+
+<div class="map" data-lat="<%= @room.latitude %>" data-lng="<%= @room.longitude %>">
+
+</div>
+
+	<p>£<%= @room.price_in_pence / 100 %></p>
+
+	<div class="description">
+		<%= simple_format @room.description %>
+	</div>
+
+	<p>This place has <% @room.no_of_rooms %> rooms</p>
+	<p>It takes <% @room.max_guests %> rooms</p>
+
+	<p>Enquire about this room with <%#= mail_to @room.user.username, @room.user.email %>. </P>
+
+<div class="actions">
+	<%= link_to "Edit", edit_room_path(@room), class: 'button' %>
+	<%= link_to "Delete", room_path(@room), method: :delete, class: 'button' %>
+	<%= link_to "Book this Room", edit_room_path(@room), class: 'button' %>
+</div>
+
+
+</section>
