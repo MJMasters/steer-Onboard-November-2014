@@ -804,3 +804,1614 @@ Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-14 13:36:33 +0000
 
 
 Started GET "/assets/marker@2x.png" for 127.0.0.1 at 2014-11-14 13:36:34 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-14 13:39:43 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RoomsController#index as HTML
+  [1m[35mRoom Load (0.2ms)[0m  SELECT "rooms".* FROM "rooms"
+  Rendered rooms/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 164ms (Views: 151.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-11-14 13:39:43 +0000
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2014-11-14 13:39:43 +0000
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2014-11-14 13:39:43 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-14 13:39:43 +0000
+
+
+Started GET "/assets/chosen.css?body=1" for 127.0.0.1 at 2014-11-14 13:39:43 +0000
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-11-14 13:39:43 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-14 13:39:43 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-14 13:39:43 +0000
+
+
+Started GET "/assets/chosen.jquery.min.js?body=1" for 127.0.0.1 at 2014-11-14 13:39:43 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-14 13:39:43 +0000
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2014-11-14 13:39:43 +0000
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2014-11-14 13:39:43 +0000
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2014-11-14 13:39:43 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-14 13:39:43 +0000
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-14 13:39:44 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-14 13:39:54 +0000
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (0.1ms)[0m  [1mSELECT "rooms".* FROM "rooms"[0m
+  Rendered rooms/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 75ms (Views: 74.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-11-14 13:39:54 +0000
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2014-11-14 13:39:54 +0000
+
+
+Started GET "/assets/chosen.css?body=1" for 127.0.0.1 at 2014-11-14 13:39:54 +0000
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-11-14 13:39:54 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-14 13:39:54 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-14 13:39:54 +0000
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2014-11-14 13:39:54 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-14 13:39:54 +0000
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2014-11-14 13:39:54 +0000
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2014-11-14 13:39:54 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-14 13:39:54 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-14 13:39:54 +0000
+
+
+Started GET "/assets/chosen.jquery.min.js?body=1" for 127.0.0.1 at 2014-11-14 13:39:54 +0000
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2014-11-14 13:39:54 +0000
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-14 13:39:54 +0000
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 13:39:56 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRoom Load (0.2ms)[0m  SELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered rooms/show.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 71ms (Views: 68.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-14 13:39:56 +0000
+
+
+Started GET "/assets/marker@2x.png" for 127.0.0.1 at 2014-11-14 13:39:56 +0000
+
+
+Started GET "/rooms/1/edit" for 127.0.0.1 at 2014-11-14 13:40:10 +0000
+Processing by RoomsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendered rooms/edit.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 53ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-14 13:40:10 +0000
+
+
+Started DELETE "/rooms/1" for 127.0.0.1 at 2014-11-14 13:40:14 +0000
+
+AbstractController::ActionNotFound (The action 'destroy' could not be found for RoomsController):
+  actionpack (4.1.7) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.7) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.7) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.7) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.7) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.7) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.7) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.7) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.7) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.7) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/Cellar/ruby/2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/Cellar/ruby/2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/Cellar/ruby/2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+
+
+Started GET "/rooms/1/edit" for 127.0.0.1 at 2014-11-14 13:40:19 +0000
+Processing by RoomsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendered rooms/edit.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 68ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-14 13:40:19 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20141114141538)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "password_digest" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20141114141538"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/rooms" for 127.0.0.1 at 2014-11-14 14:22:44 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RoomsController#index as HTML
+  [1m[35mRoom Load (0.2ms)[0m  SELECT "rooms".* FROM "rooms"
+  Rendered rooms/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 86ms (Views: 83.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-11-14 14:22:44 +0000
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2014-11-14 14:22:44 +0000
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-11-14 14:22:44 +0000
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2014-11-14 14:22:44 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-14 14:22:44 +0000
+
+
+Started GET "/assets/chosen.css?body=1" for 127.0.0.1 at 2014-11-14 14:22:44 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-14 14:22:44 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-14 14:22:44 +0000
+
+
+Started GET "/assets/chosen.jquery.min.js?body=1" for 127.0.0.1 at 2014-11-14 14:22:44 +0000
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2014-11-14 14:22:44 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-14 14:22:44 +0000
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2014-11-14 14:22:44 +0000
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2014-11-14 14:22:44 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-14 14:22:44 +0000
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-14 14:22:45 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-14 14:22:47 +0000
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (0.2ms)[0m  [1mSELECT "rooms".* FROM "rooms"[0m
+  Rendered rooms/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 67ms (Views: 66.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-14 14:22:48 +0000
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 14:22:50 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRoom Load (0.2ms)[0m  SELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered rooms/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 67ms (Views: 65.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-14 14:22:50 +0000
+
+
+Started GET "/assets/marker@2x.png" for 127.0.0.1 at 2014-11-14 14:22:50 +0000
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 14:27:05 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRoom Load (0.1ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered rooms/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 65ms (Views: 64.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-11-14 14:27:06 +0000
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2014-11-14 14:27:06 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-14 14:27:06 +0000
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2014-11-14 14:27:06 +0000
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-11-14 14:27:06 +0000
+
+
+Started GET "/assets/chosen.css?body=1" for 127.0.0.1 at 2014-11-14 14:27:06 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-14 14:27:06 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-14 14:27:06 +0000
+
+
+Started GET "/assets/chosen.jquery.min.js?body=1" for 127.0.0.1 at 2014-11-14 14:27:06 +0000
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2014-11-14 14:27:06 +0000
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2014-11-14 14:27:06 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-14 14:27:06 +0000
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2014-11-14 14:27:06 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-14 14:27:06 +0000
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-14 14:27:06 +0000
+
+
+Started GET "/assets/marker@2x.png" for 127.0.0.1 at 2014-11-14 14:27:06 +0000
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 14:27:22 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRoom Load (0.1ms)[0m  SELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered rooms/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 67ms (Views: 66.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-11-14 14:27:22 +0000
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2014-11-14 14:27:22 +0000
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2014-11-14 14:27:22 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-14 14:27:22 +0000
+
+
+Started GET "/assets/chosen.css?body=1" for 127.0.0.1 at 2014-11-14 14:27:22 +0000
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-11-14 14:27:22 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-14 14:27:22 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-14 14:27:22 +0000
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2014-11-14 14:27:22 +0000
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2014-11-14 14:27:22 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-14 14:27:22 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-14 14:27:22 +0000
+
+
+Started GET "/assets/chosen.jquery.min.js?body=1" for 127.0.0.1 at 2014-11-14 14:27:22 +0000
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2014-11-14 14:27:22 +0000
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-14 14:27:22 +0000
+
+
+Started GET "/assets/marker@2x.png" for 127.0.0.1 at 2014-11-14 14:27:22 +0000
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 14:27:54 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRoom Load (0.1ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered rooms/show.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `user' for #<Room:0x007fbb689f9180>):
+    22: 	<p>This place has <% @room.no_of_rooms %> rooms</p>
+    23: 	<p>It takes <% @room.max_guests %> rooms</p>
+    24: 
+    25: 	<p>Enquire about this room with <%= mail_to @room.user.username, @room.user.email %>. </P>
+    26: 
+    27: <div class="actions">
+    28: 	<%= link_to "Edit", edit_room_path(@room), class: 'button' %>
+  app/views/rooms/show.html.erb:25:in `_app_views_rooms_show_html_erb__4342611643330431364_70221445436840'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 14:32:01 +0000
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRoom Load (0.1ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered rooms/show.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined method `user' for #<Room:0x007fbb6479bd60>):
+    22: 	<p>This place has <% @room.no_of_rooms %> rooms</p>
+    23: 	<p>It takes <% @room.max_guests %> rooms</p>
+    24: 
+    25: 	<p>Enquire about this room with <%= mail_to @room.user.username, @room.user.email %>. </P>
+    26: 
+    27: <div class="actions">
+    28: 	<%= link_to "Edit", edit_room_path(@room), class: 'button' %>
+  app/views/rooms/show.html.erb:25:in `_app_views_rooms_show_html_erb__4342611643330431364_70221445436840'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.1ms)
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 14:32:05 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRoom Load (0.1ms)[0m  SELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered rooms/show.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `user' for #<Room:0x007fbb649b8490>):
+    22: 	<p>This place has <% @room.no_of_rooms %> rooms</p>
+    23: 	<p>It takes <% @room.max_guests %> rooms</p>
+    24: 
+    25: 	<p>Enquire about this room with <%= mail_to @room.user.username, @room.user.email %>. </P>
+    26: 
+    27: <div class="actions">
+    28: 	<%= link_to "Edit", edit_room_path(@room), class: 'button' %>
+  app/views/rooms/show.html.erb:25:in `_app_views_rooms_show_html_erb__4342611643330431364_70221445436840'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.6ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 14:33:38 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRoom Load (0.1ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered rooms/show.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined method `user' for #<Room:0x007fbb682ad778>):
+    22: 	<p>This place has <% @room.no_of_rooms %> rooms</p>
+    23: 	<p>It takes <% @room.max_guests %> rooms</p>
+    24: 
+    25: 	<p>Enquire about this room with <%= mail_to @room.user.username, @room.user.email %>. </P>
+    26: 
+    27: <div class="actions">
+    28: 	<%= link_to "Edit", edit_room_path(@room), class: 'button' %>
+  app/views/rooms/show.html.erb:25:in `_app_views_rooms_show_html_erb__4342611643330431364_70221445436840'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.5ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2014-11-14 14:34:27 +0000
+Processing by RoomsController#index as HTML
+  [1m[35mRoom Load (0.2ms)[0m  SELECT "rooms".* FROM "rooms"
+  Rendered rooms/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 75ms (Views: 74.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-14 14:34:27 +0000
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 14:34:28 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRoom Load (0.1ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered rooms/show.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `user' for #<Room:0x007fbb6495b628>):
+    22: 	<p>This place has <% @room.no_of_rooms %> rooms</p>
+    23: 	<p>It takes <% @room.max_guests %> rooms</p>
+    24: 
+    25: 	<p>Enquire about this room with <%= mail_to @room.user.username, @room.user.email %>. </P>
+    26: 
+    27: <div class="actions">
+    28: 	<%= link_to "Edit", edit_room_path(@room), class: 'button' %>
+  app/views/rooms/show.html.erb:25:in `_app_views_rooms_show_html_erb__4342611643330431364_70221409582540'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.7ms)
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 14:34:28 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRoom Load (0.1ms)[0m  SELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered rooms/show.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (undefined method `user' for #<Room:0x007fbb63a62c70>):
+    22: 	<p>This place has <% @room.no_of_rooms %> rooms</p>
+    23: 	<p>It takes <% @room.max_guests %> rooms</p>
+    24: 
+    25: 	<p>Enquire about this room with <%= mail_to @room.user.username, @room.user.email %>. </P>
+    26: 
+    27: <div class="actions">
+    28: 	<%= link_to "Edit", edit_room_path(@room), class: 'button' %>
+  app/views/rooms/show.html.erb:25:in `_app_views_rooms_show_html_erb__4342611643330431364_70221445436840'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.0ms)
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 14:35:53 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRoom Load (0.2ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered rooms/show.html.erb within layouts/application (22.4ms)
+Completed 500 Internal Server Error in 42ms
+
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+    22: 	<p>This place has <% @room.no_of_rooms %> rooms</p>
+    23: 	<p>It takes <% @room.max_guests %> rooms</p>
+    24: 
+    25: 	<p>Enquire about this room with <%= mail_to @room.user.username, @room.user.email %>. </P>
+    26: 
+    27: <div class="actions">
+    28: 	<%= link_to "Edit", edit_room_path(@room), class: 'button' %>
+  app/views/rooms/show.html.erb:25:in `_app_views_rooms_show_html_erb__4342611643330431364_70221445436840'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.1ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 14:39:02 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRoom Load (0.1ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered rooms/show.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+    22: 	<p>This place has <% @room.no_of_rooms %> rooms</p>
+    23: 	<p>It takes <% @room.max_guests %> rooms</p>
+    24: 
+    25: 	<p>Enquire about this room with <%= mail_to @room.user.username, @room.user.email %>. </P>
+    26: 
+    27: <div class="actions">
+    28: 	<%= link_to "Edit", edit_room_path(@room), class: 'button' %>
+  app/views/rooms/show.html.erb:25:in `_app_views_rooms_show_html_erb__4342611643330431364_70221445436840'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.9ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "rooms" ("address", "created_at", "description", "latitude", "longitude", "max_guests", "name", "no_of_rooms", "phone_no", "price_in_pence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["address", "27 Salwey Road, Botley, Southampton"], ["created_at", "2014-11-14 14:42:07.348454"], ["description", "The Coolest House in the World"], ["latitude", 50.908104], ["longitude", -1.290699], ["max_guests", 8], ["name", "Martin's House"], ["no_of_rooms", 4], ["phone_no", "0044 1489 799378"], ["price_in_pence", 30000], ["updated_at", "2014-11-14 14:42:07.348454"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "rooms" ("address", "created_at", "description", "latitude", "longitude", "max_guests", "name", "no_of_rooms", "phone_no", "price_in_pence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["address", "25 Salwey Road, Botley, Southampton"], ["created_at", "2014-11-14 14:42:07.354049"], ["description", "Next to the Coolest House in the World"], ["latitude", 50.908104], ["longitude", -1.290699], ["max_guests", 12], ["name", "Bethany's House"], ["no_of_rooms", 6], ["phone_no", "0044 1489 799377"], ["price_in_pence", 50000], ["updated_at", "2014-11-14 14:42:07.354049"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "rooms"
+  [1m[36mSQL (0.9ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "updated_at", "username") VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-11-14 14:42:07.361954"], ["email", "martin.masters@icloud.com"], ["updated_at", "2014-11-14 14:42:07.361954"], ["username", "MJMasters"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("created_at", "email", "updated_at", "username") VALUES (?, ?, ?, ?)  [["created_at", "2014-11-14 14:42:07.364722"], ["email", "bethany.masters@icloud.com"], ["updated_at", "2014-11-14 14:42:07.364722"], ["username", "BRMasters"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 14:42:15 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRoom Load (0.1ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Room with 'id'=1):
+  app/controllers/rooms_controller.rb:7:in `show'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.1ms)
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 14:43:19 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRoom Load (0.1ms)[0m  SELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1  [["id", 1]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Room with 'id'=1):
+  app/controllers/rooms_controller.rb:7:in `show'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.3ms)
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 14:54:57 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRoom Load (0.1ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 404 Not Found in 3ms
+
+ActiveRecord::RecordNotFound (Couldn't find Room with 'id'=1):
+  app/controllers/rooms_controller.rb:7:in `show'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.7ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mSQL (1.2ms)[0m  DELETE FROM "rooms"
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "rooms" ("address", "created_at", "description", "latitude", "longitude", "max_guests", "name", "no_of_rooms", "phone_no", "price_in_pence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["address", "27 Salwey Road, Botley, Southampton"], ["created_at", "2014-11-14 14:56:50.889541"], ["description", "The Coolest House in the World"], ["latitude", 50.908104], ["longitude", -1.290699], ["max_guests", 8], ["name", "Martin's House"], ["no_of_rooms", 4], ["phone_no", "0044 1489 799378"], ["price_in_pence", 30000], ["updated_at", "2014-11-14 14:56:50.889541"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "rooms" ("address", "created_at", "description", "latitude", "longitude", "max_guests", "name", "no_of_rooms", "phone_no", "price_in_pence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["address", "25 Salwey Road, Botley, Southampton"], ["created_at", "2014-11-14 14:56:50.893472"], ["description", "Next to the Coolest House in the World"], ["latitude", 50.908104], ["longitude", -1.290699], ["max_guests", 12], ["name", "Bethany's House"], ["no_of_rooms", 6], ["phone_no", "0044 1489 799377"], ["price_in_pence", 50000], ["updated_at", "2014-11-14 14:56:50.893472"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "updated_at", "username") VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-11-14 14:56:50.897876"], ["email", "martin.masters@icloud.com"], ["updated_at", "2014-11-14 14:56:50.897876"], ["username", "MJMasters"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("created_at", "email", "updated_at", "username") VALUES (?, ?, ?, ?)  [["created_at", "2014-11-14 14:56:50.899783"], ["email", "bethany.masters@icloud.com"], ["updated_at", "2014-11-14 14:56:50.899783"], ["username", "BRMasters"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 14:57:00 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRoom Load (0.1ms)[0m  SELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1  [["id", 1]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Room with 'id'=1):
+  app/controllers/rooms_controller.rb:7:in `show'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.8ms)
+  [1m[36mRoom Load (1.8ms)[0m  [1mSELECT "rooms".* FROM "rooms"[0m
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 14:57:37 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRoom Load (0.2ms)[0m  SELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1  [["id", 1]]
+Completed 404 Not Found in 18ms
+
+ActiveRecord::RecordNotFound (Couldn't find Room with 'id'=1):
+  app/controllers/rooms_controller.rb:7:in `show'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mSQL (1.8ms)[0m  DELETE FROM "rooms"
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "updated_at", "username") VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-11-14 14:58:27.100340"], ["email", "martin.masters@icloud.com"], ["updated_at", "2014-11-14 14:58:27.100340"], ["username", "MJMasters"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("created_at", "email", "updated_at", "username") VALUES (?, ?, ?, ?)  [["created_at", "2014-11-14 14:58:27.104759"], ["email", "bethany.masters@icloud.com"], ["updated_at", "2014-11-14 14:58:27.104759"], ["username", "BRMasters"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "rooms" ("address", "created_at", "description", "latitude", "longitude", "max_guests", "name", "no_of_rooms", "phone_no", "price_in_pence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["address", "27 Salwey Road, Botley, Southampton"], ["created_at", "2014-11-14 14:58:27.114909"], ["description", "The Coolest House in the World"], ["latitude", 50.908104], ["longitude", -1.290699], ["max_guests", 8], ["name", "Martin's House"], ["no_of_rooms", 4], ["phone_no", "0044 1489 799378"], ["price_in_pence", 30000], ["updated_at", "2014-11-14 14:58:27.114909"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "rooms" ("address", "created_at", "description", "latitude", "longitude", "max_guests", "name", "no_of_rooms", "phone_no", "price_in_pence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["address", "25 Salwey Road, Botley, Southampton"], ["created_at", "2014-11-14 14:58:27.117205"], ["description", "Next to the Coolest House in the World"], ["latitude", 50.908104], ["longitude", -1.290699], ["max_guests", 12], ["name", "Bethany's House"], ["no_of_rooms", 6], ["phone_no", "0044 1489 799377"], ["price_in_pence", 50000], ["updated_at", "2014-11-14 14:58:27.117205"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[36mRoom Load (1.4ms)[0m  [1mSELECT "rooms".* FROM "rooms"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mSQL (1.8ms)[0m  DELETE FROM "rooms"
+  [1m[36mSQL (0.9ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "updated_at", "username") VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-11-14 14:58:42.304535"], ["email", "martin.masters@icloud.com"], ["updated_at", "2014-11-14 14:58:42.304535"], ["username", "MJMasters"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("created_at", "email", "updated_at", "username") VALUES (?, ?, ?, ?)  [["created_at", "2014-11-14 14:58:42.308250"], ["email", "bethany.masters@icloud.com"], ["updated_at", "2014-11-14 14:58:42.308250"], ["username", "BRMasters"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "rooms" ("address", "created_at", "description", "latitude", "longitude", "max_guests", "name", "no_of_rooms", "phone_no", "price_in_pence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["address", "27 Salwey Road, Botley, Southampton"], ["created_at", "2014-11-14 14:58:42.320090"], ["description", "The Coolest House in the World"], ["latitude", 50.908104], ["longitude", -1.290699], ["max_guests", 8], ["name", "Martin's House"], ["no_of_rooms", 4], ["phone_no", "0044 1489 799378"], ["price_in_pence", 30000], ["updated_at", "2014-11-14 14:58:42.320090"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "rooms" ("address", "created_at", "description", "latitude", "longitude", "max_guests", "name", "no_of_rooms", "phone_no", "price_in_pence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["address", "25 Salwey Road, Botley, Southampton"], ["created_at", "2014-11-14 14:58:42.322706"], ["description", "Next to the Coolest House in the World"], ["latitude", 50.908104], ["longitude", -1.290699], ["max_guests", 12], ["name", "Bethany's House"], ["no_of_rooms", 6], ["phone_no", "0044 1489 799377"], ["price_in_pence", 50000], ["updated_at", "2014-11-14 14:58:42.322706"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 14:58:48 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRoom Load (0.2ms)[0m  SELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1  [["id", 1]]
+Completed 404 Not Found in 18ms
+
+ActiveRecord::RecordNotFound (Couldn't find Room with 'id'=1):
+  app/controllers/rooms_controller.rb:7:in `show'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.3ms)
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 14:58:49 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRoom Load (0.1ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Room with 'id'=1):
+  app/controllers/rooms_controller.rb:7:in `show'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.8ms)
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 14:58:50 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRoom Load (0.1ms)[0m  SELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1  [["id", 1]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Room with 'id'=1):
+  app/controllers/rooms_controller.rb:7:in `show'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.6ms)
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 14:58:50 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRoom Load (0.1ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Room with 'id'=1):
+  app/controllers/rooms_controller.rb:7:in `show'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.7ms)
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 14:58:58 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRoom Load (0.1ms)[0m  SELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1  [["id", 1]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Room with 'id'=1):
+  app/controllers/rooms_controller.rb:7:in `show'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.9ms)
+
+
+Started GET "/rooms/2" for 127.0.0.1 at 2014-11-14 14:58:59 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRoom Load (0.1ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Room with 'id'=2):
+  app/controllers/rooms_controller.rb:7:in `show'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-14 14:59:08 +0000
+Processing by RoomsController#index as HTML
+  [1m[35mRoom Load (0.2ms)[0m  SELECT "rooms".* FROM "rooms"
+  Rendered rooms/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 232ms (Views: 231.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:08 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:08 +0000
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:08 +0000
+
+
+Started GET "/assets/chosen.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:08 +0000
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:08 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:08 +0000
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:08 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:08 +0000
+
+
+Started GET "/assets/chosen.jquery.min.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:08 +0000
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:08 +0000
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:08 +0000
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:08 +0000
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:08 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:08 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:08 +0000
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-14 14:59:08 +0000
+
+
+Started GET "/rooms/9" for 127.0.0.1 at 2014-11-14 14:59:11 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mRoom Load (0.1ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", 9]]
+  Rendered rooms/show.html.erb within layouts/application (13.4ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+    22: 	<p>This place has <% @room.no_of_rooms %> rooms</p>
+    23: 	<p>It takes <% @room.max_guests %> rooms</p>
+    24: 
+    25: 	<p>Enquire about this room with <%= mail_to @room.user.username, @room.user.email %>. </P>
+    26: 
+    27: <div class="actions">
+    28: 	<%= link_to "Edit", edit_room_path(@room), class: 'button' %>
+  app/views/rooms/show.html.erb:25:in `_app_views_rooms_show_html_erb__1528669611156514714_70361683083120'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.1ms)
+
+
+Started GET "/rooms/9" for 127.0.0.1 at 2014-11-14 14:59:11 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mRoom Load (0.1ms)[0m  SELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1  [["id", 9]]
+  Rendered rooms/show.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+    22: 	<p>This place has <% @room.no_of_rooms %> rooms</p>
+    23: 	<p>It takes <% @room.max_guests %> rooms</p>
+    24: 
+    25: 	<p>Enquire about this room with <%= mail_to @room.user.username, @room.user.email %>. </P>
+    26: 
+    27: <div class="actions">
+    28: 	<%= link_to "Edit", edit_room_path(@room), class: 'button' %>
+  app/views/rooms/show.html.erb:25:in `_app_views_rooms_show_html_erb__1528669611156514714_70361681505940'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.4ms)
+
+
+Started GET "/rooms/9" for 127.0.0.1 at 2014-11-14 14:59:30 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mRoom Load (0.1ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", 9]]
+  Rendered rooms/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 87ms (Views: 86.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:30 +0000
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:30 +0000
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:30 +0000
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:30 +0000
+
+
+Started GET "/assets/chosen.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:30 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:30 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:30 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:30 +0000
+
+
+Started GET "/assets/chosen.jquery.min.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:30 +0000
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:30 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:30 +0000
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:30 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:30 +0000
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:30 +0000
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:30 +0000
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-14 14:59:34 +0000
+
+
+Started GET "/assets/marker@2x.png" for 127.0.0.1 at 2014-11-14 14:59:34 +0000
+
+
+Started GET "/rooms/9" for 127.0.0.1 at 2014-11-14 14:59:35 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mRoom Load (0.2ms)[0m  SELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1  [["id", 9]]
+  Rendered rooms/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 83ms (Views: 82.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:35 +0000
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:35 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:35 +0000
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:35 +0000
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:35 +0000
+
+
+Started GET "/assets/chosen.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:35 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:35 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:35 +0000
+
+
+Started GET "/assets/chosen.jquery.min.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:35 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:35 +0000
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:35 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:35 +0000
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:35 +0000
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:35 +0000
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:35 +0000
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-14 14:59:35 +0000
+
+
+Started GET "/assets/marker@2x.png" for 127.0.0.1 at 2014-11-14 14:59:35 +0000
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 14:59:38 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRoom Load (0.1ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Room with 'id'=1):
+  app/controllers/rooms_controller.rb:7:in `show'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-14 14:59:39 +0000
+Processing by RoomsController#index as HTML
+  [1m[35mRoom Load (0.2ms)[0m  SELECT "rooms".* FROM "rooms"
+  Rendered rooms/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 75ms (Views: 74.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:39 +0000
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:39 +0000
+
+
+Started GET "/assets/chosen.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:39 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:39 +0000
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:39 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:39 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:39 +0000
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:39 +0000
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:39 +0000
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:39 +0000
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:39 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:39 +0000
+
+
+Started GET "/assets/chosen.jquery.min.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:39 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:39 +0000
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:39 +0000
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-14 14:59:39 +0000
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-14 14:59:41 +0000
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 89ms (Views: 86.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:41 +0000
+
+
+Started GET "/assets/chosen.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:41 +0000
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:41 +0000
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:41 +0000
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:41 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:41 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-14 14:59:41 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:41 +0000
+
+
+Started GET "/assets/chosen.jquery.min.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:41 +0000
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:41 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:41 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:41 +0000
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:41 +0000
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:41 +0000
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-14 14:59:41 +0000
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-14 14:59:41 +0000
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-14 14:59:56 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (83.9ms)
+  Rendered users/new.html.erb within layouts/application (88.6ms)
+Completed 500 Internal Server Error in 91ms
+
+ActionView::Template::Error (undefined method `submit' for #<User:0x007ffcb2e46ab8>):
+     5: 	<%= form.input :password %>
+     6: 	<%= form.input :password_confirmation %>
+     7: 
+     8: 	<%= form.input :submit %>
+     9: 
+    10: <% end %>
+  app/views/users/_form.html.erb:8:in `block in _app_views_users__form_html_erb___1590440855308433806_70361654768220'
+  app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb___1590440855308433806_70361654768220'
+  app/views/users/new.html.erb:1:in `_app_views_users_new_html_erb__1222983317473776588_70361654895400'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.3ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-14 15:00:04 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (7.3ms)
+  Rendered users/new.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 94ms (Views: 92.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-11-14 15:00:04 +0000
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2014-11-14 15:00:04 +0000
+
+
+Started GET "/assets/chosen.css?body=1" for 127.0.0.1 at 2014-11-14 15:00:04 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-14 15:00:04 +0000
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2014-11-14 15:00:04 +0000
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-11-14 15:00:04 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-14 15:00:04 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-14 15:00:04 +0000
+
+
+Started GET "/assets/chosen.jquery.min.js?body=1" for 127.0.0.1 at 2014-11-14 15:00:04 +0000
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2014-11-14 15:00:04 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-14 15:00:04 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-14 15:00:04 +0000
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2014-11-14 15:00:04 +0000
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2014-11-14 15:00:04 +0000
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-14 15:00:04 +0000
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-14 15:00:04 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-14 15:08:29 +0000
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (0.3ms)[0m  [1mSELECT "rooms".* FROM "rooms"[0m
+  Rendered rooms/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 91ms (Views: 89.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-14 15:08:29 +0000
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-14 15:08:31 +0000
+
+SyntaxError (/Users/Martin/Desktop/steer_rails/Onboard/app/controllers/users_controller.rb:13: syntax error, unexpected '=', expecting keyword_end
+  			flash [:error] = "Ooops something went wrong please try again"
+  			                ^
+/Users/Martin/Desktop/steer_rails/Onboard/app/controllers/users_controller.rb:24: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/users_controller.rb:13: syntax error, unexpected '=', expecting keyword_end
+  app/controllers/users_controller.rb:24: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-14 15:08:31 +0000
+
+SyntaxError (/Users/Martin/Desktop/steer_rails/Onboard/app/controllers/users_controller.rb:13: syntax error, unexpected '=', expecting keyword_end
+  			flash [:error] = "Ooops something went wrong please try again"
+  			                ^
+/Users/Martin/Desktop/steer_rails/Onboard/app/controllers/users_controller.rb:24: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/users_controller.rb:13: syntax error, unexpected '=', expecting keyword_end
+  app/controllers/users_controller.rb:24: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.8ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-14 15:10:52 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (17.3ms)
+  Rendered users/new.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 97ms (Views: 92.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-11-14 15:10:52 +0000
+
+
+Started GET "/assets/chosen.css?body=1" for 127.0.0.1 at 2014-11-14 15:10:52 +0000
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2014-11-14 15:10:52 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-14 15:10:52 +0000
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-11-14 15:10:52 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-14 15:10:52 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-14 15:10:52 +0000
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2014-11-14 15:10:52 +0000
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2014-11-14 15:10:52 +0000
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-14 15:10:52 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-14 15:10:52 +0000
+
+
+Started GET "/assets/chosen.jquery.min.js?body=1" for 127.0.0.1 at 2014-11-14 15:10:52 +0000
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2014-11-14 15:10:52 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-14 15:10:52 +0000
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2014-11-14 15:10:52 +0000
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-14 15:10:53 +0000
+
+
+Started POST "/users" for 127.0.0.1 at 2014-11-14 15:11:50 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GT+ufwKkFQ53MK6y1hX+oIrHrKxo01opvbD4U9KYaB0=", "user"=>{"username"=>"Nicola Masters", "email"=>"nicola.masters@icloud.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `user' for #<UsersController:0x007ffcb34a2b78>):
+  app/controllers/users_controller.rb:7:in `create'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.9ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-11-14 15:19:05 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/users"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/Cellar/ruby/2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/Cellar/ruby/2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/Cellar/ruby/2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.3ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2014-11-14 15:35:18 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GT+ufwKkFQ53MK6y1hX+oIrHrKxo01opvbD4U9KYaB0=", "user"=>{"username"=>"Nicola Masters", "email"=>"nicola.masters@icloud.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+Completed 500 Internal Server Error in 19ms
+
+NoMethodError (undefined method `user' for #<UsersController:0x007fa90596b7b0>):
+  app/controllers/users_controller.rb:7:in `create'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.9ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-14 15:35:35 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (75.0ms)
+  Rendered users/new.html.erb within layouts/application (75.9ms)
+Completed 200 OK in 282ms (Views: 280.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2014-11-14 15:35:35 +0000
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-11-14 15:35:35 +0000
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2014-11-14 15:35:35 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-14 15:35:35 +0000
+
+
+Started GET "/assets/chosen.css?body=1" for 127.0.0.1 at 2014-11-14 15:35:35 +0000
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-11-14 15:35:35 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-14 15:35:35 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-14 15:35:35 +0000
+
+
+Started GET "/assets/chosen.jquery.min.js?body=1" for 127.0.0.1 at 2014-11-14 15:35:35 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-14 15:35:35 +0000
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-14 15:35:35 +0000
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2014-11-14 15:35:35 +0000
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2014-11-14 15:35:35 +0000
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2014-11-14 15:35:35 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-14 15:35:35 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-14 15:35:35 +0000
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-14 15:35:35 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-14 15:35:36 +0000
+Processing by RoomsController#index as HTML
+  [1m[35mRoom Load (0.2ms)[0m  SELECT "rooms".* FROM "rooms"
+  Rendered rooms/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 87ms (Views: 83.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2014-11-14 15:35:36 +0000
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2014-11-14 15:35:36 +0000
+
+
+Started GET "/assets/chosen.css?body=1" for 127.0.0.1 at 2014-11-14 15:35:36 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-14 15:35:36 +0000
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2014-11-14 15:35:36 +0000
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-11-14 15:35:36 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-14 15:35:36 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-14 15:35:36 +0000
+
+
+Started GET "/assets/chosen.jquery.min.js?body=1" for 127.0.0.1 at 2014-11-14 15:35:36 +0000
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2014-11-14 15:35:36 +0000
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-14 15:35:36 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-14 15:35:36 +0000
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2014-11-14 15:35:36 +0000
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2014-11-14 15:35:36 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-11-14 15:35:36 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-14 15:35:36 +0000
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-14 15:35:36 +0000
+
+
+Started GET "/onboard" for 127.0.0.1 at 2014-11-14 15:35:40 +0000
+
+ActionController::RoutingError (No route matches [GET] "/onboard"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/Cellar/ruby/2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/Cellar/ruby/2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/Cellar/ruby/2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.5ms)
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 15:43:27 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRoom Load (0.1ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 404 Not Found in 4ms
+
+ActiveRecord::RecordNotFound (Couldn't find Room with 'id'=1):
+  app/controllers/rooms_controller.rb:7:in `show'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.1ms)
+
+
+Started GET "/rooms/1" for 127.0.0.1 at 2014-11-14 15:43:29 +0000
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRoom Load (0.1ms)[0m  SELECT  "rooms".* FROM "rooms"  WHERE "rooms"."id" = ? LIMIT 1  [["id", 1]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Room with 'id'=1):
+  app/controllers/rooms_controller.rb:7:in `show'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.3ms)

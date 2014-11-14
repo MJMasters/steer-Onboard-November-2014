@@ -22,13 +22,14 @@
     </form>
 
     <nav class="seven columns">
+      <%= User.find(session[:user_id]).username %>
       <%# link_to "Dashboard", "#" %>
       <%# link_to "Add a room", "#" %>
       <%# link_to "Orders", "#" %>
       <%# link_to "Log out", "#" %>
 
-      <%= link_to "Sign up", "#" %>
-      <%= link_to "Sign in", "#" %>
+      <%= link_to "Sign up", new_user_path %>
+      <%= link_to "Sign in", new_session_path %>
     </nav>
   </header>
 
